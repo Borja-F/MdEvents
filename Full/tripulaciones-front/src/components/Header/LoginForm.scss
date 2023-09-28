@@ -1,0 +1,17 @@
+@import "../../variables.scss";
+
+input {
+    border: 1px solid #ccc;
+}
+
+.form-register {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
+
+button.login-button {
+    background-color: $salmon;
+    color: $white-color;
+}
